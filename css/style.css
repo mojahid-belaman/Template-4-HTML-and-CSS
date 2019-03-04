@@ -1,0 +1,466 @@
+/* Start body */
+body
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.clearfix
+{
+    clear: both;
+}
+/* End body */
+/* Start navbar*/
+.navbar
+{
+    height: 50px;
+    background: #450634;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+.navbar ul
+{
+    margin: 0;
+    list-style: none;
+}
+.navbar ul li
+{
+    display: inline-block;
+    line-height: 50px;
+    padding-right: 30px;
+    
+}
+.navbar ul li a
+{
+    color: #DA4E7B;
+    text-decoration: none;
+}
+.navbar ul li a.active {color: #fff;}
+.navbar ul li a:hover {color: #fff;}
+/* End navbar*/
+/* Start Slider */
+.slider
+{
+    height: 650px;
+    background-image: url('../image/cover.png');
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+.slider .web
+{
+    padding: 100px 0;
+}
+.slider .web h2
+{
+    margin: 0;
+    font-size: 40px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+.slider .web span
+{
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+.slider .para
+{
+    padding: 15px 0;
+}
+.slider .para p
+{
+    font-size: 25px;
+    word-spacing: 5px;
+
+}
+.slider .disc ul
+{
+    list-style: inside;
+}
+.slider .disc ul li
+{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.slider .work
+{
+    background: #FF0048;
+    width: 19%;
+    position: absolute;
+    bottom: 0;
+    left: 37%;
+    padding: 20px 50px;
+}
+
+.slider .work span
+{
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.slider .work::after
+{
+    content: "";
+    border-top: 35px solid #FF0048;
+    border-right: 35px solid transparent;
+    border-left: 35px solid transparent;
+    position: relative;
+    top: 74px;
+    left: -3px;
+    z-index: 1;
+}
+/* End Slider */
+/* Start images */
+.images
+{
+    z-index: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.images .image
+{
+    width: 25%;
+    height: 252px;
+    float: left;
+    position: relative;
+}
+.images .image img
+{
+    width: 100%;
+}
+.images .image .over
+{
+    background: #FF0048;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 252px;
+    opacity: 0;
+}
+.images .image:hover .over {opacity: 1;}
+.images .over span
+{
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 18%;
+    font-size: 30px;
+}
+.images .over i
+{
+    color: #fff;
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+    font-size: 25px;
+}
+.images .over i:hover {color: #bbb0b0;}
+/* End images */
+/* Start box */
+.box
+{
+    background: #FF0048;
+    color: #fff;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+}
+.box::after
+{
+    content: "";
+    content: "";
+    border-top: 35px solid #FF0048;
+    border-right: 35px solid transparent;
+    border-left: 35px solid transparent;
+    position: relative;
+    top: 35px;
+}
+.box p
+{
+    margin: 0;
+    line-height: 50px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+/* End box */
+/* Start meet */
+.meet
+{
+    width: 100%;
+    background: #F3F3F3;
+    overflow: hidden;
+    padding: 60px 0;
+}
+.meet .sub-meet
+{
+    text-align: center;
+}
+.meet .sub-meet h2
+{
+    color: #FF084D;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    margin-bottom: 50px;
+}
+.meet .sub-meet .info       
+{
+    float: left;
+    width: 50%;
+    margin-bottom: 30px;
+}
+.meet .sub-meet .info h3
+{
+    color: #FF084D;
+    font-size: 35px;
+    letter-spacing: 3px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.meet .sub-meet .info span
+{
+    color: #747070;
+    word-spacing: 2px;
+}
+.meet .sub-meet button
+{
+    background: #000;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 0;
+    width: 20%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.meet .sub-meet button:hover {background: #FF084D}
+/* End meet */
+/* Start section */
+.section
+{
+    width: 100%;
+    background-image: url('../image/Cover_2.jpg');
+    padding: 50px 0;
+    text-align: center;
+    overflow: hidden;
+}
+.section .info
+{
+    display: inline-block;
+    width: 25%;
+    color: #fff;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%
+}
+.section .info h2
+{
+    color: #FF0149;
+    text-align: left;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+.section .info p
+{
+    text-align: justify;
+    line-height: 25px;
+}
+.section .disc
+{
+    color: #fff;
+    float: left;
+    width: 50%;
+    margin-bottom: 5%;
+}
+.section .disc span
+{
+    display: inline-block;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    margin-left: 3%;
+}
+.section button
+{
+    background: #FFFFFF;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    width: 200px;
+    color: #474646;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.section button:hover
+{
+    background: #FF084D;
+    color: #fff;
+}
+.section .disc2 span
+{
+    display: inline-block;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    margin-right: 3px;
+}
+.section .disc2 span.active
+{
+    border: 5px solid #FF5E8B;
+}
+.section .disc2 span:hover {    border: 5px solid #FF5E8B;}
+/* End section */
+/* Start footer */
+.footer
+{
+    text-align: center;
+    background: #DDDDDD;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    height: 80px;
+    line-height: 80px;
+}
+.footer span
+{
+    color: #F15B85;
+    font-weight: bold;
+}
+/* End footer */
+
+/****************************** Page Contact ******************************/
+.contact
+{
+    width: 100%;
+    background-image: url('../image/coverPage2.PNG');
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+    padding: 50px 0;
+}
+.contact h2
+{
+    font-size: 40px;
+    font-style: italic;
+    margin-bottom: 0;
+    letter-spacing: 3px;
+    color: #FF084D;
+}
+.contact p
+{
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    color: #f54d7c;
+}
+.contact .form
+{
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+.contact .form h3
+{
+    color: #c8184a;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-size: 25px;
+}
+.contact .form input, textarea, ::placeholder
+{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px 0 10px 5px;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    background: #FF084D;
+}
+.contact .form textarea
+{
+    height: 150px;
+    overflow: hidden;
+}
+.contact .form button
+{
+    float: right;
+    background: #fff;
+    border: 0;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.contact .form button:hover
+{
+    background: #FF084D;
+    color: #fff;
+}
+/* who-im */
+.who-im
+{
+    text-align: center;
+    padding: 20px 0;
+}
+.who-im h2
+{
+    margin: 0;
+    color: #f74275;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+.who-im p
+{
+    margin-bottom: 35px;
+}
+.who-im i
+{
+    font-size: 25px;
+    margin-left: 10px;
+    color: #FF084D;
+}
+.who-im i:hover {color: #f74275}
+
+/****************************** Page Books ******************************/
+.cover
+{
+    width: 60%;
+    background: #fff;
+    margin: 20px auto;
+    overflow: hidden;
+    padding: 20px 10px;
+}
+.cover .left
+{
+    width: 50%;
+    float: left;
+}
+.cover .left img
+{
+    width: 100%;
+}
+.cover .right
+{
+    width: 50%;
+    height: 109px;
+    float: right;
+    background-color: #eee;
+    padding: 12% 0
+}
+.cover .right p:first-of-type
+{
+    font-size: 25px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.cover .right p:last-of-type
+{
+    font-size: 15px;
+    color: #818181;
+}
+.cover .right button
+{
+    background: #000;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 10px 15px;
+    cursor: pointer;
+}
